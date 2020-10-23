@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <com.example.mypractice.ViewGroupA
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <com.example.mypractice.ViewGroupB
+            android:layout_width="300dp"
+            android:layout_height="500dp"
+            android:background="@color/colorAccent"
+            android:gravity="center">
+
+            <com.example.mypractice.ViewA
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorPrimaryDark" />
+
+        </com.example.mypractice.ViewGroupB>
+    </com.example.mypractice.ViewGroupA>
+
+</LinearLayout>

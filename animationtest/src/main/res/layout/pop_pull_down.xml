@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_layout"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="horizontal"
+    tools:context=".activity.PullDownSelectedFruitActivity">
+
+
+
+    <q.rorbin.verticaltablayout.VerticalTabLayout
+        android:id="@+id/vertical_tab"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:background = "@drawable/selected_background"
+        app:indicator_width="0dp"
+        app:tab_height="50dp"
+        app:tab_mode="scrollable"
+        android:visibility="visible"
+        />
+
+    <com.example.animationtest.view.MyRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"/>
+
+    <com.example.animationtest.view.VerticalViewPager
+        android:id="@+id/view_pager_animation"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+
+</LinearLayout>

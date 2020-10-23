@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animationtest" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customrefreshlayout" />
+            <option value="$PROJECT_DIR$/daliypractice" />
+            <option value="$PROJECT_DIR$/dictprovider" />
+            <option value="$PROJECT_DIR$/firstprovider" />
+            <option value="$PROJECT_DIR$/handlertest" />
+            <option value="$PROJECT_DIR$/jigsawpuzzle" />
+            <option value="$PROJECT_DIR$/listviewswipe" />
+            <option value="$PROJECT_DIR$/mypractice" />
+            <option value="$PROJECT_DIR$/myscroller" />
+            <option value="$PROJECT_DIR$/mysharedpreferences" />
+            <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/verticaltablayout" />
+            <option value="$PROJECT_DIR$/viewpager2test" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

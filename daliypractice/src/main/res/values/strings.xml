@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DaliyPractice</string>
+    <string name="viewpager_drawer_layout">viewPager_drawLayout</string>
+</resources>

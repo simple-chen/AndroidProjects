@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myapplication.MyViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_layout"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="300dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+</com.example.myapplication.MyViewGroup>
