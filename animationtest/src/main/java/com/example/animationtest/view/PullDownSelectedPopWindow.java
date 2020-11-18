@@ -1,4 +1,4 @@
-package com.example.animationtest.activity;
+package com.example.animationtest.view;
 
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;

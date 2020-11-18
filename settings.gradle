@@ -1,3 +1,5 @@
+include ':mytablayout'
+include ':myshadow'
 include ':verticaltablayout'
 include ':animationtest'
 include ':myscroller'
